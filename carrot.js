@@ -14,7 +14,7 @@ Carrot.init = function(id) {
 };
 
 Carrot.border = function(solid, color, thickness) {
-  canvas.style.border = solid+" "+color+" "+thickness+"px"
+  canvas.style.border = (solid+" "+color+" "+thickness+"px")
 };
 
 Carrot.rect = function(type, x, y, w, h, color) {
